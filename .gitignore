@@ -1,0 +1,67 @@
+# ============================================
+# Fresa Adventure - .gitignore
+# ============================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# --- Entornos virtuales ---
+venv/
+env/
+.venv/
+.env/
+pyvenv/
+
+# --- Dependencias ---
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# --- Empaquetado (PyInstaller / Inno Setup) ---
+*.spec
+*.exe
+*.msi
+*.ico
+installer.iss
+output/
+
+# --- Archivos de configuración de IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# --- Sistema operativo ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# --- Logs ---
+*.log
+
+# --- Archivos sensibles (nunca subir) ---
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# --- Datos temporales ---
+*.tmp
+*.bak
+*.cache
+
+# --- Archivos de Python ---
+*.pyc
